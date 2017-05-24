@@ -11,6 +11,12 @@
 
 上面的是根据 jin1016 的这个 [gist](https://gist.github.com/jin1016/7958752) 修改来的。
 
+## Python
+
+`utf8_to_utf16le.py` 转换 UTF-8 编码的文件到 UTF-16LE
+
 ## bat
-[convert-utf8-utf16le.bat](https://gist.github.com/yaqinking/3f1c8eaacb3898fadd9e0b4c1e03f801) 转换 UTF-8 编码的文件到 UTF16-LE [来源](https://superuser.com/questions/69091/batch-change-encoding-ascii-files-from-utf-8-to-iso-8859-1)
+
+**因为需要手动再命令提示符里敲不推荐使用，用 Python script 转换吧**
+~~[convert-utf8-utf16le.bat](https://gist.github.com/yaqinking/3f1c8eaacb3898fadd9e0b4c1e03f801) 转换 UTF-8 编码的文件到 UTF16-LE [来源](https://superuser.com/questions/69091/batch-change-encoding-ascii-files-from-utf-8-to-iso-8859-1)~~
 

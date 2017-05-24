@@ -2,6 +2,7 @@ use Encode;
 
 my $output ="tmp_output_file.tmp";
 @ext = ("*.tjs", "*.ks", "*.txt");
+
 foreach( @ext ) {
 	foreach( glob($_) ) {
 		my $input = $_;
